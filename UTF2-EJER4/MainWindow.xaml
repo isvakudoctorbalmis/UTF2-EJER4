@@ -1,0 +1,33 @@
+﻿<Window
+    x:Class="UTF2_EJER4.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:UTF2_EJER4"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Contador de 140 carácteres"
+    Width="800"
+    Height="450"
+    Background="LightSlateGray"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBox
+            Name="CaracteresTextBox"
+            Width="428"
+            Height="216"
+            Margin="173,71,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextChanged="CaracteresTextBox_TextChanged"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Name="contadorTextBlock"
+            Margin="529,334,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="0 / 140"
+            TextWrapping="Wrap" />
+
+    </Grid>
+</Window>
